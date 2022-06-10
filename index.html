@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+        <title>Metric/Imperial Converter</title>
+    </head>
+    <body>
+        <main>
+            <div id="container1" class="center">
+               <div class="center">
+                   <div>
+                        <div id="header-text">
+                            <h1>Metric/Imperial Unit Conversion</h1>
+                        </div>
+                        <div id="input-field" class="center">
+                            <input type="number" id="input-el">
+                        </div>
+                        <div class="center" id="convert">
+                            <button id="convert-btn">Convert</button>
+                        </div>
+                   </div>
+               </div> 
+            </div>
+            <div id="container2" class="center">
+                <div class="center try">
+                    <div class="center measurement" id="msment-container">
+                        <div class="measurement">
+                            <div class="box center">
+                                <div>
+                                   <h1>Length (Meter/Feet)</h1>
+                                   <p id="length"></p> 
+                                </div>
+                            </div>
+                            <div class="box center">
+                                <div>
+                                    <h1>Volume (Liters/Gallons)</h1>
+                                    <p id="volume"></p> 
+                                </div>
+                            </div>
+                            <div class="box center">
+                                <div>
+                                    <h1>Mass (Kilograms/Pounds)</h1>
+                                    <p id="mass"></p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
